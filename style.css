@@ -9,7 +9,7 @@ header nav ul li {margin:0 1rem;}
 header nav ul li a {color:#fff; text-decoration:none; font-weight:bold; transition:0.3s;}
 header nav ul li a:hover {color:#ff9800;}
 .menu-toggle {display:none;}
-.hero {background:url('https://picsum.photos/1600/500?grayscale') center/cover no-repeat; height:400px; display:flex; justify-content:center; align-items:center; text-align:center; color:white;padding:0 20px; margin-bottom: 2rem; margin-top:70px;}
+.hero {background:url('https://picsum.photos/1600/500?grayscale') center/cover no-repeat; height:400px; display:flex; justify-content:center; align-items:center; text-align:center; color:white;padding:0 20px; margin-bottom:2rem; margin-top:70px;}
 .hero h1 {font-size:3rem; margin-bottom:1rem;}
 .hero p {font-size:1.2rem;}
 .container {max-width:1100px; margin:auto; padding:2rem 2rem;}
