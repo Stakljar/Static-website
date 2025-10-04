@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">My Website</div>
+      <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div>
+      <h1>Welcome to My Website</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </section>
+
+  <section class="container" id="about">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at mi nec lacus volutpat suscipit. Donec id facilisis ligula. Nulla facilisi.</p>
+  </section>
+
+  <section class="container" id="features">
+    <h2>Features</h2>
+    <div class="tiles">
+      <div class="tile">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet.</p>
+      </div>
+      <div class="tile">
+        <h3>Dolor Sit</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</p>
+      </div>
+      <div class="tile">
+        <h3>Amet Consectetur</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://picsum.photos/800/600?random=1" alt="Gallery image 1" onclick="openLightbox(this)">
+      <img src="https://picsum.photos/800/600?random=2" alt="Gallery image 2" onclick="openLightbox(this)">
+      <img src="https://picsum.photos/800/600?random=3" alt="Gallery image 3" onclick="openLightbox(this)">
+      <img src="https://picsum.photos/800/600?random=4" alt="Gallery image 4" onclick="openLightbox(this)">
+      <img src="https://picsum.photos/800/600?random=5" alt="Gallery image 5" onclick="openLightbox(this)">
+      <img src="https://picsum.photos/800/600?random=6" alt="Gallery image 6" onclick="openLightbox(this)">
+      <img src="https://picsum.photos/800/600?random=7" alt="Gallery image 7" onclick="openLightbox(this)">
+      <img src="https://picsum.photos/800/600?random=8" alt="Gallery image 8" onclick="openLightbox(this)">
+      <img src="https://picsum.photos/800/600?random=9" alt="Gallery image 9" onclick="openLightbox(this)">
+      <img src="https://picsum.photos/800/600?random=10" alt="Gallery image 10" onclick="openLightbox(this)">
+    </div>
+  </section>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox(event)">&times;</span>
+    <span class="arrow left" onclick="prevImage(event)">&#10094;</span>
+    <span class="arrow right" onclick="nextImage(event)">&#10095;</span>
+    <img class="lightbox-content" id="lightbox-img">
+  </div>
+
+  <section class="container" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-card">
+      <p>You can reach us via the following methods:</p>
+      <ul>
+        <li>Email: <a href="mailto:info@mywebsite.com">info@mywebsite.com</a></li>
+        <li>Phone: +1 234 567 890</li>
+        <li>Address: 123 Main Street, City, Country</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dražen Antunović. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
